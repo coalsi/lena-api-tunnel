@@ -296,6 +296,14 @@ src/
     rate-limit.ts       Token bucket rate limiter
 ```
 
+## Disclaimer
+
+This tool is designed for **local development and prototyping** — running on your own machine, testing your own apps, and building projects without managing separate API keys.
+
+It is **your responsibility** to ensure your use of this tool complies with the terms of service of the underlying AI providers (Anthropic, OpenAI, etc.). Routing CLI subscriptions through a proxy may violate provider TOS depending on how it's used — for example, sharing access with others or using it for production workloads.
+
+The authors of this tool are not responsible for how you use it. Use at your own risk.
+
 ## License
 
 ISC
