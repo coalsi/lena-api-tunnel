@@ -2,3 +2,14 @@ node_modules/
 dist/
 *.log
 .env
+.env.*
+!.env.example
+.DS_Store
+
+# AI planning docs
+docs/plans/
+.planning/
+.claude/
+
+# Build artifacts
+*.tsbuildinfo
